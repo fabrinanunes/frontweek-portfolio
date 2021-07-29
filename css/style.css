@@ -32,6 +32,7 @@ a {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   position: relative;
+  display: inline-block;
 }
 
 .link::after {
@@ -136,8 +137,17 @@ h6 {
 }
 
 .square:hover::after {
-  -webkit-transform: translate(0%, -22%) rotate(360deg);
-          transform: translate(0%, -22%) rotate(360deg);
+  -webkit-transform: translate(0%, -22%) rotate(225deg);
+          transform: translate(0%, -22%) rotate(225deg);
+}
+
+.social-media {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.social-media:hover {
+  font-size: 50px;
 }
 
 body {
@@ -906,6 +916,7 @@ body {
 
 .img-project {
   max-width: 400px;
+  max-height: 350px;
   border-radius: 4px;
   position: absolute;
   top: 50%;

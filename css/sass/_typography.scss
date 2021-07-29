@@ -22,6 +22,7 @@ a {
   transition: 0.5s ease;
 
   position: relative;
+  display: inline-block;
 
   &::after {
     content: "";
@@ -100,6 +101,7 @@ h6 {
      text-align: center;
 }
 
+
 .text-right{
      text-align: right;
 }
@@ -136,7 +138,14 @@ h6 {
 
   &:hover {
     &::after {
-      transform: translate(0%, -22%) rotate(360deg);
+      transform: translate(0%, -22%) rotate(225deg);
     }
+  }
+}
+
+.social-media{
+  transition: 0.5s ease;
+  &:hover {
+    font-size: 50px;
   }
 }

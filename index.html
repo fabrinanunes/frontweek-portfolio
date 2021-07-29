@@ -17,15 +17,15 @@
     <!--header-->
     <header class="menu">
       <div class="menu-left">
-        <a href="" class="link">Home</a>
-        <a href="" class="link">About</a>
+        <a href="" class="link menu-1">Home</a>
+        <a href="" class="link menu-2">About</a>
       </div>
       <div class="menu-logo">
-        <h5>FN</h5>
+        <h5 class="menu-3">FN</h5>
       </div>
       <div class="menu-right">
-        <a href="" class="link">Works</a>
-        <a href="" class="link">Get in touch</a>
+        <a href="" class="link menu-4">Works</a>
+        <a href="" class="link menu-5">Get in touch</a>
       </div>
     </header>
     <!--bg-hero-->
@@ -99,37 +99,69 @@
     <!--centro-->
     <section class="container hero">
       <div class="container-item">
-        <h1>Fabrina Nunes</h1>
-        <h2 class="mask text-right mt-7">Front-end Developer</h2>
-        <h2 class="mask text-center">Estudante ADS</h2>
-        <div class="flex-end pr-5">
-          <a href="#works" class="square">works</a></div>
+        <div>
+          <h1>Fabrina Nunes</h1>
         </div>
+        <div>
+          <h2 class="mask text-right mt-7">Front-end Developer</h2>
+        </div>
+        <div>
+          <h2 class="mask text-center">Estudante ADS</h2>
+        </div>
+        <div class="flex-end pr-5">
+          <a href="#works" class="square">works</a>
+        </div>
+      </div>
       <div class="container-item">
-        <img src="./assets/img01.jpeg" alt="Fabrina"/>
+        <img src="./assets/images/img01.jpeg" alt="Fabrina"/>
       </div>
     </section>
 
     <!--works-->
-    <sections class="list">
+    <sections class="list" id="section-01">
       <div class="list-item">
-        <h2>Selected Works</h2>
+        <h2>Projects</h2>
       </div>
-      <div class="list-item">
-        <h5 class="color-gray">01.</h5>
-        <h3>RoquetQ</h3>
-        <img src="./assets/work01.png" alt="RoquetQ" class="img-project" />
+      <div class="list-item py-8">
+        <h5 class="color-gray mr-2">01.</h5>
+        <a href="https://github.com/fabrinanunes/nlw6-discover" target="_blank">
+          <h3>RoquetQ</h3>
+        </a>
+        <img src="./assets/images/work01.png" alt="RoquetQ" class="img-project" />
       </div>
-      <div class="list-item">
-        <h5 class="color-gray">02.</h5>
-        <h3>Wookiepedia</h3>
-        <img src="./assets/work02.png" alt="Wookiepedia" class="img-project" />
+
+      <div class="bb-gray"></div>
+
+      <div class="list-item py-8">
+        <h5 class="color-gray mr-2">02.</h5>
+        <a href="https://github.com/fabrinanunes/wookiepedia" target="_blank">
+          <h3>Wookiepedia</h3>
+        </a>
+        <img src="./assets/images/work02.png" alt="Wookiepedia" class="img-project" />
       </div>
-      <div class="list-item">
-        <h5 class="color-gray">01.</h5>
-        <h3>3cards</h3>
-        <img src="./assets/work03.png" alt="3cards" class="img-project" />
+
+      <div class="bb-gray"></div>
+
+      <div class="list-item py-8">
+        <h5 class="color-gray mr-2">03.</h5>
+        <a href="https://github.com/fabrinanunes/card-component" target="_blank">
+          <h3>3cards</h3>
+        </a>
+        <img src="./assets/images/work03.png" alt="3cards" class="img-project" />
       </div>
     </sections>
+
+    <section class="get my-9" id="section-02">
+      <div class="ml-8">
+          <h2>Get in touch</h2>
+      </div>
+      <div>
+          <h3 class="mt-9 mask text-center">Send me a DM on <a href="https://www.linkedin.com/in/fabrinanunes/" target="_blank" class="social-media">LinkedIn</a></h3>
+      </div>     
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/script.js"></script>
   </body>
 </html>
