@@ -126,7 +126,7 @@ h6 {
 
     z-index: -1;
 
-    transform: translate(-8%, -22%) rotate(45deg);
+    transform: translate(-10%, -22%) rotate(45deg);
 
     border-radius: 4px;
     background: linear-gradient(225deg, #2dc7ed 0%, rgba(83, 139, 240, 0) 100%);
@@ -136,7 +136,7 @@ h6 {
 
   &:hover {
     &::after {
-      transform: translate(-8%, -22%) rotate(60deg);
+      transform: translate(0%, -22%) rotate(360deg);
     }
   }
 }
